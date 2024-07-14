@@ -3,7 +3,7 @@
 title: TEst Name
 description: subtitle | affiliations | motto
 
-baseurl: nhbess.github.io #name of GitHub repository
+#baseurl: nhbess.github.io #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
 email: #
 
