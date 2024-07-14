@@ -9,3 +9,7 @@ target="_blank">
 <i class="fab fa-github"></i>
 </a>
 {%- endif -%}
+
+from navigation.html
+<a href="{{site.baseurl}}/projects/">Projects</a>
+        
