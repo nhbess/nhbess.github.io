@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Home They Brought Her Warrior Dead 
-image: "assets\\images\\profile.png"
+image: "/assets/images/a.png"
 ---
 
 Home they brought her warrior dead:  
