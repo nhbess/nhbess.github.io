@@ -8,13 +8,6 @@ layout: default
       <div class="post-header">
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       </div>
-      {% if post.image %}
-        <div class="post-image">
-          <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image-size">
-          </a>
-        </div>
-      {% endif %}
       <p>
         {% if post.image %}
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image-inline">
@@ -24,6 +17,7 @@ layout: default
     </div>
   {% endfor %}
 </div>
+
 
 
 <!-- pagination -->

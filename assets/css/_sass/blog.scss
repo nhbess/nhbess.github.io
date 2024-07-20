@@ -17,6 +17,11 @@
   height: auto; /* Maintains aspect ratio */
 }
 
+/* Title Styling */
+.post-header h2 {
+  margin: 0; /* Removes default margin */
+}
+
 .post-header a {
   text-decoration: none; /* Removes underline from links */
   color: inherit; /* Inherits text color from parent */
