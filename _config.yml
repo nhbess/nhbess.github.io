@@ -49,8 +49,8 @@ compress_html:
     output: true
     permalink: /projects/:name/
 #    order:
-#      #- shortProject.md
-#      #- longerProjectTitle.md
+#      - shortProject.md
+#      - longerProjectTitle.md
 #      #- redirect.md
 #      #- project4.md
 #      #- project5.md
