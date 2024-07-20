@@ -1,4 +1,19 @@
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-image {
+  margin-left: 15px; /* Adjust spacing as needed */
+}
+
 .post-image-size {
-    width: 50px;
-    height: auto;
-  }
+  width: 50px;
+  height: auto;
+  float: right;
+  margin-left: 15px; /* Adjust spacing as needed */
+}
+
+.post-item p {
+  clear: both; /* Ensures text wraps around the image properly */
+}
