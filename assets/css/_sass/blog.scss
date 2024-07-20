@@ -1,19 +1,39 @@
+/* General Post Item Styling */
+.post-item {
+  margin-bottom: 20px; /* Space between individual posts */
+}
+
+/* Header Styling for Posts */
 .post-header {
-  display: flex;
-  align-items: center;
+  display: flex; /* Aligns children horizontally */
+  align-items: flex-start; /* Aligns items to the start */
+  margin-bottom: 10px; /* Adds space below the header */
 }
 
+/* Image Styling for Post Header */
 .post-image {
-  margin-left: 15px; /* Adjust spacing as needed */
+  margin-left: 15px; /* Space between image and text */
 }
 
-.post-image-size {
-  width: 200px;
-  height: auto;
-  float: left;
-  margin-left: 15px; /* Adjust spacing as needed */
+.post-image img {
+  float: right; /* Floats image to the right */
+  margin-left: 15px; /* Space between image and text */
+  margin-bottom: 10px; /* Space below the image */
+  max-width: 150px; /* Adjust based on design requirements */
+  height: auto; /* Maintains aspect ratio */
 }
 
+/* Title Styling */
+.post-header h2 {
+  margin: 0; /* Removes default margin */
+}
+
+.post-header a {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits text color from parent */
+}
+
+/* Excerpt Styling */
 .post-item p {
-  clear: both; /* Ensures text wraps around the image properly */
+  text-align: justify; /* Justifies text for a neat appearance */
 }
