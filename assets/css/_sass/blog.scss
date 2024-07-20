@@ -1,24 +1,22 @@
 /* General Post Item Styling */
 .post-item {
   margin-bottom: 20px; /* Space between individual posts */
+  overflow: hidden; /* Clears floats within the post item */
 }
 
 /* Header Styling for Posts */
 .post-header {
-  display: flex; /* Aligns children horizontally */
-  align-items: flex-start; /* Aligns items to the start */
   margin-bottom: 10px; /* Adds space below the header */
 }
 
-/* Image Styling for Post Header */
+/* Image Styling for Post */
 .post-image {
+  float: right; /* Floats the image to the right */
   margin-left: 15px; /* Space between image and text */
+  margin-bottom: 10px; /* Space below the image */
 }
 
 .post-image img {
-  float: right; /* Floats image to the right */
-  margin-left: 15px; /* Space between image and text */
-  margin-bottom: 10px; /* Space below the image */
   max-width: 150px; /* Adjust based on design requirements */
   height: auto; /* Maintains aspect ratio */
 }
