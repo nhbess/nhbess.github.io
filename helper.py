@@ -29,7 +29,7 @@ def generate_image_grid(folder_path, rows, columns, max_width='200px', max_heigh
     return html_content
 
 # Example usage
-folder_path = '_post_pics/An unexpected fractal'
+folder_path = 'assets\images\post_pics\An unexpected fractal'
 rows = 5
 columns = 4
 max_width = '200px'  # Adjust as needed
