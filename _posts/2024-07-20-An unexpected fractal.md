@@ -42,3 +42,13 @@ Nice plots. Extremely slow.
 </table>
 So I tried to rewrite it in a more efficient fashion, but somewhere on the process I made a mistake in the code, and there it was: an unexpected fractal suddenly appeared.
 
+
+![Alt text](an_unexpected_fractal_9.jpg)
+
+<img src="an_unexpected_fractal_9.jpg" alt="Alt text" style="width:50%;">
+![Alt text]({{ site.baseurl }}/assets/images/example.gif)
+
+<img src=an_unexpected_fractal_9.jpg alt="Alt text" style="width:50%;">
+![Alt text]({{ site.baseurl }}/assets/images/example.gif)
+
+<img src="{{ site.baseurl }}/assets/images/example.gif" alt="Alt text" style="width:50%;">
