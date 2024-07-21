@@ -37,8 +37,9 @@ def generate_image_grid(folder_path, rows, columns, max_width='200px', max_heigh
     
     return html_content
 
-# Example usage
-folder_path = 'assets\\images\\post_pics\\an_unexpected_fractal'
+# <td><img src="{{ site.baseurl }}/assets/images/GIF.gif" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+
+folder_path = 'assets/images/post_pics/an_unexpected_fractal'
 rows = 5
 columns = 4
 max_width = '200px'  # Adjust as needed
