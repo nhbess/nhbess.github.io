@@ -47,25 +47,25 @@ So I tried to rewrite it in a more efficient fashion, but somewhere on the proce
 <table>
   <tr>
     <td>
-      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: 200;">
         <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_0.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
-      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: 200;">
         <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_1.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
-      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: 200;">
         <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
-      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: 200;">
         <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -73,6 +73,3 @@ So I tried to rewrite it in a more efficient fashion, but somewhere on the proce
   </tr>
 </table>
 
-<video autoplay loop muted playsinline>
-  <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" type="video/mp4">
-</video>
