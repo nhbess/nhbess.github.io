@@ -28,7 +28,7 @@ Nice plots. Extremely slow.
     <td><img src="{ site.baseurl }/assets/images/post_pics/an_unexpected_fractal/19.jpg" alt="Image 11" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
   </tr>
   <tr>
-    <td><img src="{ site.baseurl }/assets/images/post_pics/an_unexpected_fractal/2.jpg" alt="Image 12" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>        
+    <td><img src="{ site.baseurl }/assets/images/0.jpg" alt="Image 12" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>        
     <td><img src="{ site.baseurl }/assets/images/post_pics/an_unexpected_fractal/3.jpg" alt="Image 13" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>        
     <td><img src="{ site.baseurl }/assets/images/post_pics/an_unexpected_fractal/4.jpg" alt="Image 14" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>        
     <td><img src="{ site.baseurl }/assets/images/post_pics/an_unexpected_fractal/5.jpg" alt="Image 15" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>        
@@ -52,6 +52,14 @@ Nice plots. Extremely slow.
     <td><img src="{{ site.baseurl }}/assets/images/GIF.gif" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
   </tr>
 </table>
+
+
+  <tr>
+    <td><img src="{{ site.baseurl }}/assets/images/GIF.gif" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+  </tr>
+
+  <td><img src="{ site.baseurl }/assets/images/post_pics/an_unexpected_fractal/9.jpg" alt="Image 19" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>  
+
 So I tried to rewrite it in a more efficient fashion, but somewhere on the process I made a mistake in the code, and there it was: an unexpected fractal suddenly appeared.
 
 <img src="{{ site.baseurl }}/assets/images/example.gif" alt="Alt text" style="width:50%;">
