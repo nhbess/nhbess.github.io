@@ -44,17 +44,35 @@ Nice plots. Extremely slow.
 
 So I tried to rewrite it in a more efficient fashion, but somewhere on the process I made a mistake in the code, and there it was: an unexpected fractal suddenly appeared.
 
-<video autoplay loop muted playsinline>
-  <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" type="video/mp4">
-</video>
-
-
 <table>
   <tr>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_0.mp4" alt="Image 0" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_1.mp4" alt="Image 1" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_2.mp4" alt="Image 2" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td>
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_0.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="max-width: 200px; max-height: 200px; width: 100%; height: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
   </tr>
 </table>
 
+<video autoplay loop muted playsinline>
+  <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" type="video/mp4">
+</video>
