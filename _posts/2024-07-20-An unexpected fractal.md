@@ -10,15 +10,35 @@ Nice plots. Extremely slow.
 
 <table>
   <tr>
-    <td><img src= "18.jpg" alt="Alt text 1" style="width:100;  height: auto"></td>
+    <td><img src=an_unexpected_fractal_0.jpg alt="Image 0" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_1.jpg alt="Image 1" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_10.jpg alt="Image 2" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_11.jpg alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
   </tr>
   <tr>
-    <td><img src= /assets/images/animation_550.gif alt="Alt text 6" style="max-width: 200px; max-height: 200px;"></td>
-    <td><img src= animation_550.gif alt="Alt text 6" style="max-width: 200px; max-height: 200px;"></td>
+    <td><img src=an_unexpected_fractal_12.jpg alt="Image 4" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_13.jpg alt="Image 5" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_14.jpg alt="Image 6" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_15.jpg alt="Image 7" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+  </tr>
+  <tr>
+    <td><img src=an_unexpected_fractal_16.jpg alt="Image 8" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_17.jpg alt="Image 9" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_18.jpg alt="Image 10" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_19.jpg alt="Image 11" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+  </tr>
+  <tr>
+    <td><img src=an_unexpected_fractal_2.jpg alt="Image 12" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_3.jpg alt="Image 13" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_4.jpg alt="Image 14" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_5.jpg alt="Image 15" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+  </tr>
+  <tr>
+    <td><img src=an_unexpected_fractal_6.jpg alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_7.jpg alt="Image 17" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_8.jpg alt="Image 18" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src=an_unexpected_fractal_9.jpg alt="Image 19" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
   </tr>
 </table>
-
-![[animation_550.gif]]
-
 So I tried to rewrite it in a more efficient fashion, but somewhere on the process I made a mistake in the code, and there it was: an unexpected fractal suddenly appeared.
 
