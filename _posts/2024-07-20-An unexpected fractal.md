@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An unexpected fractal
-image: "/assets/images/post_pics/an_unexpected_fractal/small_1.gif"
+image: "/assets/images/post_pics/an_unexpected_fractal/13.jpg"
 ---
 
 Some time ago I wrote a program for visualizing search algorithms in a grid. A relatively simple [Breadth first search](https://en.wikipedia.org/wiki/Breadth-first_search) that mutates its color on each search depth over a grid.
@@ -73,5 +73,154 @@ So I tried to rewrite it in a more efficient fashion, but somewhere on the proce
   </tr>
 </table>
 
+<<<<<<< HEAD
+This is a centered view, the 'square shape' repeats as it grows. I still don't know what went wrong, but I'm happy with the result.
+
+<table>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/centered.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/centered2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+</table>
+
+### Galery
+I decided that before fixing the bug I would make a few more tests. Funny thing is that when changing the kernel (neighborhood) the fractal nature is conserved, presumably linear transformations of a fractal transformation are indeed fractals. Here are some of the results for different kernels and number of seeds.
+
+<table>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav0.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav10.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav11.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav12.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav13.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav14.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav15.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav16.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav17.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav18.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav5.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav6.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav7.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video controls style="height: 200px; width: auto;">
+        <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/fav8.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+</table>
+=======
 
 I still don't know what happened, but I like the result. I will try to understand it better in the future.
+>>>>>>> 5d66c09 (whats happen in the profile)
