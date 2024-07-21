@@ -41,20 +41,6 @@ Nice plots. Extremely slow.
   </tr>
 </table>
 
-
-
-
-<table>
-  <tr>
-    <td><img src="{{ site.baseurl }}/assets/images/example.gif" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/1.jpg" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/profile.png" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-  </tr>
-  <tr>
-    <td><img src="{{ site.baseurl }}/assets/images/GIF.gif" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-  </tr>
-</table>
-
 So I tried to rewrite it in a more efficient fashion, but somewhere on the process I made a mistake in the code, and there it was: an unexpected fractal suddenly appeared.
 
 <img src="{{ site.baseurl }}/assets/images/example.gif" alt="Alt text" style="width:50%;">
