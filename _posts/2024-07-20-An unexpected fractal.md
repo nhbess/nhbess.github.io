@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An unexpected fractal
-image: "/assets/images/post_pics/An unexpected fractal/13.jpg"
+image: "/assets/images/post_pics/an_unexpected_fractal/small_3.gif"
 ---
 
 Some time ago I wrote a program for visualizing search algorithms in a grid. A relatively simple [Breadth first search](https://en.wikipedia.org/wiki/Breadth-first_search) that mutates its color on each search depth over a grid.
