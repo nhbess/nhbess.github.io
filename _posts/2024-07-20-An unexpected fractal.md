@@ -73,7 +73,6 @@ So I tried to rewrite it in a more efficient fashion, but somewhere on the proce
   </tr>
 </table>
 
-<<<<<<< HEAD
 This is a centered view, the 'square shape' repeats as it grows. I still don't know what went wrong, but I'm happy with the result.
 
 <table>
@@ -220,7 +219,3 @@ I decided that before fixing the bug I would make a few more tests. Funny thing 
     </td>
   </tr>
 </table>
-=======
-
-I still don't know what happened, but I like the result. I will try to understand it better in the future.
->>>>>>> 5d66c09 (whats happen in the profile)
