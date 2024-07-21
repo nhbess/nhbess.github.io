@@ -17,8 +17,10 @@ def rename_files(folder_path, post_name):
 
 
 
-def generate_image_grid(folder_path, rows, columns, max_width='200px', max_height='200px'):
+def generate_image_grid(folder_path,identifier, rows, columns, max_width='200px', max_height='200px'):
     images = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
+    images = [f for f in images if identifier in f]
+    print(images)
 
     html_content = '<table>\n'
     for row in range(rows):
@@ -28,8 +30,7 @@ def generate_image_grid(folder_path, rows, columns, max_width='200px', max_heigh
             if index >= len(images):
                 break
             image = images[index]
-            filepath = f'{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/{image}'
-            filepath = "{{ site.baseurl }}" + "/assets/images/post_pics/an_unexpected_fractal/" + image
+            filepath = "{{ site.baseurl }}" + "/"+ folder_path+ "/" + image
             html_content += f'    <td><img src="{filepath}" alt="Image {index}" style="max-width: {max_width}; max-height: {max_height}; width: 100%; height: auto;"></td>\n'
         html_content += '  </tr>\n'
     
@@ -37,15 +38,11 @@ def generate_image_grid(folder_path, rows, columns, max_width='200px', max_heigh
     
     return html_content
 
-# <td><img src="{{ site.baseurl }}/assets/images/GIF.gif" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-# <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/6.jpg" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
 folder_path = 'assets/images/post_pics/an_unexpected_fractal'
+identifier = 'small_'
 rows = 5
-columns = 4
+columns = 1
 max_width = '200px'  # Adjust as needed
 max_height = '200px'  # Adjust as needed
-html_code = generate_image_grid(folder_path, rows, columns, max_width, max_height)
+html_code = generate_image_grid(folder_path, identifier, rows, columns, max_width, max_height)
 print(html_code)
-
-#<td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/1.jpg" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-#<td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/1.jpg" alt="Image 1" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
