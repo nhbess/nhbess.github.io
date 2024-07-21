@@ -46,16 +46,13 @@ So I tried to rewrite it in a more efficient fashion, but somewhere on the proce
 
 <table>
   <tr>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_0.gif" alt="Image 0" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_1.gif" alt="Image 1" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_2.gif" alt="Image 2" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.gif" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <video autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" type="video/mp4">
+    </video>
+    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_0.mp4" alt="Image 0" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_1.mp4" alt="Image 1" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_2.mp4" alt="Image 2" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+    <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.mp4" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
   </tr>
 </table>
 
-
-# Iframes
-
-<iframe src="{{ site.baseurl }}/test.html" width="100%" height="600px" style="border:none;"></iframe>
-
-# Iframes out

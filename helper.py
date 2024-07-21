@@ -38,6 +38,33 @@ def generate_image_grid(folder_path,identifier, rows, columns, max_width='200px'
     
     return html_content
 
+
+import os
+from moviepy.editor import VideoFileClip
+
+def convert_gif_to_mp4(source_directory, target_directory):
+    if not os.path.exists(target_directory):
+        os.makedirs(target_directory)
+
+    for filename in os.listdir(source_directory):
+        if filename.endswith('.gif'):
+            gif_path = os.path.join(source_directory, filename)
+            mp4_path = os.path.join(target_directory, os.path.splitext(filename)[0] + '.mp4')
+
+            print(f"Converting {gif_path} to {mp4_path}")
+            clip = VideoFileClip(gif_path)
+            clip.write_videofile(mp4_path, codec='libx264')
+            clip.close()
+            print(f"Converted {gif_path} to {mp4_path}")
+            
+source_directory = 'assets/images/post_pics/an_unexpected_fractal'
+target_directory = 'assets/images/post_pics/an_unexpected_fractal'
+
+convert_gif_to_mp4(source_directory, target_directory)
+
+
+
+sys.exit()
 folder_path = 'assets/images/post_pics/an_unexpected_fractal'
 identifier = 'small_'
 rows = 5
