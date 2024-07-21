@@ -28,8 +28,8 @@ def generate_image_grid(folder_path, rows, columns, max_width='200px', max_heigh
             if index >= len(images):
                 break
             image = images[index]
-            print(image)
             filepath = f'{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/{image}'
+            filepath = "{{ site.baseurl }}" + "/assets/images/post_pics/an_unexpected_fractal/" + image
             html_content += f'    <td><img src="{filepath}" alt="Image {index}" style="max-width: {max_width}; max-height: {max_height}; width: 100%; height: auto;"></td>\n'
         html_content += '  </tr>\n'
     
@@ -38,7 +38,7 @@ def generate_image_grid(folder_path, rows, columns, max_width='200px', max_heigh
     return html_content
 
 # <td><img src="{{ site.baseurl }}/assets/images/GIF.gif" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-
+# <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/6.jpg" alt="Image 16" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
 folder_path = 'assets/images/post_pics/an_unexpected_fractal'
 rows = 5
 columns = 4
@@ -47,3 +47,5 @@ max_height = '200px'  # Adjust as needed
 html_code = generate_image_grid(folder_path, rows, columns, max_width, max_height)
 print(html_code)
 
+#<td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/1.jpg" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
+#<td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/1.jpg" alt="Image 1" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
