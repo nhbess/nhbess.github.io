@@ -50,19 +50,55 @@ def convert_gif_to_mp4(source_directory, target_directory):
         if filename.endswith('.gif'):
             gif_path = os.path.join(source_directory, filename)
             mp4_path = os.path.join(target_directory, os.path.splitext(filename)[0] + '.mp4')
-
+            if os.path.exists(mp4_path):
+                continue
             print(f"Converting {gif_path} to {mp4_path}")
             clip = VideoFileClip(gif_path)
             clip.write_videofile(mp4_path, codec='libx264')
             clip.close()
             print(f"Converted {gif_path} to {mp4_path}")
-            
+
 source_directory = 'assets/images/post_pics/an_unexpected_fractal'
 target_directory = 'assets/images/post_pics/an_unexpected_fractal'
 
 convert_gif_to_mp4(source_directory, target_directory)
 
+sys.exit()
+def generate_video_grid(folder_path, identifier, rows, columns, video_height='200px', video_width='auto'):
+    # Get a list of all files in the specified folder
+    files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
+    # Filter the files to include only those with the specified identifier
+    videos = [f for f in files if identifier in f]
+    print(videos)
 
+    # Initialize the HTML content with an opening table tag
+    html_content = '<table>\n'
+    
+    # Iterate over the rows
+    for row in range(rows):
+        html_content += '  <tr>\n'
+        
+        # Iterate over the columns
+        for col in range(columns):
+            index = row * columns + col
+            if index >= len(videos):
+                break
+            video = videos[index]
+            filepath = "{{ site.baseurl }}" + "/" + folder_path + "/" + video
+            # Add the video tag to the table cell
+            html_content += f'''    <td>
+      <video autoplay loop controls style="height: {video_height}; width: {video_width};">
+        <source src="{filepath}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>\n'''
+        
+        html_content += '  </tr>\n'
+    
+    # Close the table tag
+    html_content += '</table>'
+    
+    return html_content
 
 sys.exit()
 folder_path = 'assets/images/post_pics/an_unexpected_fractal'

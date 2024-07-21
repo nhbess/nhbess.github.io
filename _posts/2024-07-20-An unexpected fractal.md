@@ -73,3 +73,5 @@ So I tried to rewrite it in a more efficient fashion, but somewhere on the proce
   </tr>
 </table>
 
+
+I still don't know what happened, but I like the result. I will try to understand it better in the future.
