@@ -47,14 +47,8 @@ So I tried to rewrite it in a more efficient fashion, but somewhere on the proce
 <table>
   <tr>
     <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_0.gif" alt="Image 0" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-  </tr>
-  <tr>
     <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_1.gif" alt="Image 1" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-  </tr>
-  <tr>
     <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_2.gif" alt="Image 2" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
-  </tr>
-  <tr>
     <td><img src="{{ site.baseurl }}/assets/images/post_pics/an_unexpected_fractal/small_3.gif" alt="Image 3" style="max-width: 200px; max-height: 200px; width: 100%; height: auto;"></td>
   </tr>
 </table>
